@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+/* list of fonts
+font-family: 'Fredoka', sans-serif;
+
+*/
+
 body{
     margin: 0;
     padding: 0;
@@ -31,21 +37,69 @@ body{
 }
 
 .main-one{
-    border: 1px solid red;
+    
 }
 .main-two{
-    border: 1px solid white;
-    width:50%;
+    width:80%;
+    height: auto;
     margin: auto;
-}
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0px;
+ }
 
 .img-logo{
-    width: 120px;
-    padding: 10px;
-    border: 1px solid green;
+    width: 800px;
+    height: 300px;
+    padding: 5px;
+    /* border: 1px solid green; */
+    align-self: center;
 }
 .main-two .img-logo img{
     display:block;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 50%;
+    border: 4px solid rgb(168, 168, 245);
 }
+
+.main-two .img-text{
+    width:70%
+}
+.main-two .img-text h4{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 40px;
+    line-height: 30px;
+    margin: 0px;    
+    color:rgb(168, 168, 245);
+    letter-spacing: 5px;
+}
+
+.img-text p{
+    text-align: justify;
+    text-justify: distribute;
+    color: rgb(210, 210, 245);
+}
+
+.img-text button{
+    padding: 10px 20px;
+    background-color: rgb(210, 210, 245);
+    color:rgb(22, 22, 32);
+    border-style: none;
+    border-radius: 4px;
+}
+
+
+.img-text button:hover{
+    color: rgb(210, 210, 245);
+    background-color:rgb(22, 22, 32);
+    border: 1px solid rgb(210, 210, 245);
+}
+
+
+.img-text .b-tons button:nth-child(2n){
+    margin-left: 20px;
+}
+
+
